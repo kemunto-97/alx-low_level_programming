@@ -25,7 +25,7 @@ if (num != 100)
 {
 printf("Buzz ");
 }
-else 
+else
 {
 printf("Buzz");
 }
