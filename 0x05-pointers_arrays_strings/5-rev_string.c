@@ -19,7 +19,7 @@ end_ptr = s;
 for (i = 0; i < len - 1; i++)
 end_ptr++;
 
-for (i = 0; i < len / 2; i++) 
+for (i = 0; i < len / 2; i++)
 {
 ch = *end_ptr;
 *end_ptr = *begin_ptr;
