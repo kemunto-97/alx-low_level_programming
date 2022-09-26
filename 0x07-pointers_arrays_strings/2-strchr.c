@@ -2,21 +2,21 @@
 #define NULL 0
 
 /**
- * _strchr - locate occurence of cahr in string and returns pointer there
- * @s: string to search
- * @c: target character
- * Return: pointer to that caharcter in string
+ * _strchr - locates a character in a string
+ * @s: string to check
+ * @c: character to be checked
+ * Return: pointer to spot in s with c or null
  */
 
 char *_strchr(char *s, char c)
 {
-int i = 0;
-
-while (s[i] != '\0' && s[i] != c)
-i++;
-
-if (s[i] == c
-return (&s[i]);
-else
-return (NULL);
+int i;
+for (i = 0; *(s + 1); i++)
+{
+if(*(s + i) == c)
+return (s + i);
+}
+if (*(s + i) == c)
+return (s + i);
+return (0);
 }
