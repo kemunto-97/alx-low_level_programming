@@ -3,19 +3,21 @@
 /**
  * _memset - Fills the first n bytes ofmemory area
  * @s: A pointer whose memory is filled
- * @c: The character to fill memory area with
+ * @b: The character to fill memory area with
  * @n: no. of bytes to be filled
- * description _memset: mdhsns
- * Return: Pointer to fill memory area
+ * Return: memory area
  */
 
-void *_memset(void *s, int c, size_t n)
+char *_memset(char *s, char b, unsigned int n)
 {
-unsigned int index;
-unsigned char *memory = s, value = c;
+int size = n;
 
-for (index = 0; index < n; index++)
-memory[index] = value;
+if (size > 0)
+{
+int i;
 
-return (memory);
+for (i = 0; i < size; i++)
+s[i] = b;
+
+return (s);
 }
