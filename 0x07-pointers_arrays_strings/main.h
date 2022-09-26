@@ -3,12 +3,10 @@
 
 /**
  * _putchar - puts character to standard output
- *
  * @c: character to put to standard output
  */
 
-int _putchar(char c);
-void *_memset(void *s, int c, size_t n);                                                                                   
+int _putchar(char c);                                                                               
 char *_memset(char *s, char b, unsigned int n);
 char *_memcpy(char *dest, char *src, unsigned int n);
 char *_strchr(char *s, char c);
