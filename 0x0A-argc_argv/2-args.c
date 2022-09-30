@@ -8,11 +8,11 @@
  * Return: 0
  */
 
-int main(int argc, char *argv[])
+int main(int argc, char *argv[] __attribute__((unused)))
 {
 	int i = 0;
 
 	while (i < argc)
-		printf("%s\n", argv[1++]);
+		printf("%s\n", argv[i++]);
 	return (0);
 }
