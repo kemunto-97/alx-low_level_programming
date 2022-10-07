@@ -17,9 +17,9 @@ void add_nums(char *final_prod, char *next_prod, int next_len);
 int find_len(char *str)
 {
 	int len = 0;
-	
+
 	while (*str++)
-		len++;	
+		len++;
 	return (len);
 }
 
@@ -116,7 +116,7 @@ void get_prod(char *prod, char *mult, int digit, int zeroes)
 		*prod = '0';
 		prod--;
 	}
-	
+
 	for (; mult_len >= 0; mult_len--, mult--, prod--)
 	{
 		if (*mult < '0' || *mult > '9')
