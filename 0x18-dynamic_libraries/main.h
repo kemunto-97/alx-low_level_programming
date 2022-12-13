@@ -1,5 +1,5 @@
-#ifndef HOLBERTON_H
-#define HOLBERTON_H
+#ifndef DYNAMIC_H
+#define DYNAMIC_H
 
 int _putchar(char c);
 int _islower(int c);
