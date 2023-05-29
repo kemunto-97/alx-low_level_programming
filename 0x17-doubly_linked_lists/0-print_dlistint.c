@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "dlistint_t.h" // header
+#include "lists.h" // header
 
 size_t print_dlistint(const dlistint_t *h)
 {
