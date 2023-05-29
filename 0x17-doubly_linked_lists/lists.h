@@ -41,4 +41,7 @@ unsigned int _strspn(char *s, char *accept);
 char *_strpbrk(char *s, char *accept);
 char *_strstr(char *haystack, char *needle);
 size_t print_dlistint(const dlistint_t *h);
+size_t dlistint_len(const dlistint_t *h);
+
+
 #endif /* LISTS_H */
