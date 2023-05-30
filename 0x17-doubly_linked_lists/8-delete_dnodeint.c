@@ -2,6 +2,8 @@
 
 #include <stdlib.h>
 
+#include "lists.h"
+
 /**
 
  * delete_dnodeint_at_index - Deletes the node at the given index of a doubly linked list.
